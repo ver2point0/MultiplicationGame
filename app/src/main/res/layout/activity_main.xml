@@ -28,7 +28,7 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:src="@mimap/ic_launcher"/>
+        android:src="@mipmap/ic_launcher"/>
 
     <Button
         android:id="@+id/bt_play"
