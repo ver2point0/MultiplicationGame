@@ -132,7 +132,7 @@ public class GameActivity extends Activity implements View.OnClickListener {
             Toast.makeText(getApplicationContext(), "Well done!", Toast.LENGTH_LONG).show();
             correctTrueOrFalse = true;
         } else { // Incorrect
-            Toast.makeText(getApplicationContext(), "Sorry", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Not yet!", Toast.LENGTH_LONG).show();
             correctTrueOrFalse = false;
         }
         return correctTrueOrFalse;
